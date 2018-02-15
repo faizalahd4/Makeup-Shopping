@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- META DATA INFORMATION - STARTS -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Sephora ">
+    <meta name="keywords" content="Sephora ">
+    <meta name="author" content="Laf">
+    <!-- META DATA INFORMATION - ENDS -->
+    
+    <!-- TITLE - STARTS -->
+    <title>Sephora</title>
+    <!-- TITLE - ENDS -->
+
+    <!-- FAVICON - STARTS -->
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <!-- FAVICON - ENDS -->
+
+    <!-- HTML5 SUPPORT IN IE9 BELOW BROWSER AND MEDIA QUERY - STARTS -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- HTML5 SUPPORT IN IE9 BELOW BROWSER AND MEDIA QUERY - ENDS -->
+    
+    <!-- FONT - STARTS -->
+    <link href="https://fonts.googleapis.com/css?family=ABeeZee|Didact+Gothic|Lobster" rel="stylesheet">
+    <!-- FONT - ENDS -->
+    
+    <!-- STYLE - STARTS -->
+    <link rel="stylesheet" href="src/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="src/assets/css/style.css">
+    <link rel="stylesheet" href="src/assets/css/font-awesome.css">
+    <!-- STYLE - ENDS -->
+    
+    <!-- SCRIPT - STARTS -->
+    <script data-main="src/app/config" src="src/assets/script/lib/require.js"></script>
+    <script src="src/assets/script/lib/jquery.js"></script>
+    <!-- SCRIPT - ENDS -->
+</head>
+<body>
+    <!-- HEADER - STARTS -->
+    <div ui-view="header"></div>
+    <!-- HEADER - ENDS -->
+
+    <!-- MAIN CONTAINER - STARTS -->
+    <div ui-view="content" class="container" id="main"></div>
+    <!-- MAIN CONTAINER - ENDS -->
+
+    <!-- FOOTER - STARTS -->
+    <div ui-view="footer"></div> 
+    <!-- FOOTER - ENDS -->
+</body>
+</html>
